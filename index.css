@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables CSS */
+:root{
+    --bodyColor: #050321;
+    --backgroundTituloPrincipal: #14063f;
+    --colorTituloPrincipal: #fff;
+    --colorButton: #2f0e94;
+    --colorButtonHover: #4315cd;
+}
+
+body{
+    background-color: var(--bodyColor);
+}
+
+h1{
+    color: var(--colorTituloPrincipal);
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--backgroundTituloPrincipal) ;
+}
+
+h2{
+    color: var(--colorTituloPrincipal);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    padding: 1rem;
+    border: 2px solid var(--colorButtonHover);
+    border-radius: 5px;
+    width: 50vw;
+    margin: 2px;
+}
+
+button{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--colorButton);
+    color: var(--colorTituloPrincipal);
+    padding: 1rem;
+    border: 2px solid var(--backgroundTituloPrincipal);
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--colorButtonHover);
+}
