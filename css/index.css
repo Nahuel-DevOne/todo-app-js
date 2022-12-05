@@ -31,6 +31,15 @@ h2{
     margin-bottom: 1rem;
 }
 
+#fecha{
+    color: var(--colorTituloPrincipal);
+    font-weight: 600;
+    /* margin-left: 2rem; */
+    align-self: start;
+    margin: 0 0 0 2rem;
+    padding: 1rem;
+}
+
 #container{
     display: flex;
     flex-direction: row;
@@ -42,7 +51,7 @@ input{
     padding: 1rem;
     border: 2px solid var(--colorButtonHover);
     border-radius: 5px;
-    width: 50vw;
+    width: 70vw;
     margin: 2px;
 }
 
@@ -60,4 +69,33 @@ button{
 
 button:hover{
     background-color: var(--colorButtonHover);
+}
+
+/* clase para el botón de delete */
+.remove{
+    background-color: #ff0000;
+    margin-top: 13px;
+    float: right;
+    clear: both;
+    padding-right: 20px;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 1rem;
+    border-style: none;
+}
+
+
+/* Media querys */
+
+@media (max-width: 768px){
+    #container{
+        flex-direction: column;
+    }
+    input{
+        width: 90vw;
+    }
+    button{
+        width: 90vw;
+    }
 }
