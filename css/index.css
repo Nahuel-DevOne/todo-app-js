@@ -10,7 +10,7 @@
     --backgroundTituloPrincipal: #14063f;
     --colorTituloPrincipal: #fff;
     --colorButton: #2f0e94;
-    --colorButtonHover: #4315cd;
+    --colorButtonHover: #4f1aef;
 }
 
 body{
@@ -34,7 +34,7 @@ h2{
 #fecha{
     color: var(--colorTituloPrincipal);
     font-weight: 600;
-    /* margin-left: 2rem; */
+    margin-left: 2rem;
     align-self: start;
     margin: 0 0 0 1.5rem;
     padding: 1rem;
@@ -72,20 +72,35 @@ button:hover{
     background-color: var(--colorButtonHover);
 }
 
-/* clase para el botón de delete */
-.remove{
-    background-color: #ff0000;
-    margin-top: 13px;
-    float: right;
-    clear: both;
-    padding-right: 20px;
+#list{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 3.8rem;
+    width: 79vw;
+    margin: 0 auto;
+    padding: 0.8rem;
+    border: 2px solid var(--colorTituloPrincipal);
     border-radius: 5px;
-    width: 60px;
-    height: 30px;
-    font-size: 1rem;
-    border-style: none;
+    box-shadow: var(--colorButtonHover) 0px 0px 8px 0px inset;
 }
 
+#completed{
+    color: var(--colorButton);
+}
+
+#completed:hover{
+    color: var(--colorButtonHover);
+}
+
+#trash{
+    color: var(--colorButton)
+}
+
+#trash:hover{
+    color: var(--colorButtonHover)
+}
 
 /* Media querys */
 
@@ -100,6 +115,9 @@ button:hover{
     button{
         box-shadow: var(--colorTituloPrincipal) 0px 0px 8px 0px;
         margin-top: .6rem;
+        width: 90vw;
+    }
+    #list{
         width: 90vw;
     }
 }
