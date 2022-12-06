@@ -34,7 +34,7 @@ h2{
 #fecha{
     color: var(--colorTituloPrincipal);
     font-weight: 600;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     align-self: start;
     margin: 0 0 0 1.5rem;
     padding: 1rem;
@@ -78,7 +78,7 @@ button:hover{
     align-content: center;
     justify-content: space-between;
     height: 3.8rem;
-    width: 79vw;
+    width: 80vw;
     margin: 0 auto;
     padding: 0.8rem;
     border: 2px solid var(--colorTituloPrincipal);
