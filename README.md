@@ -13,7 +13,7 @@ El clásico Todo list con JavaScript, en una versión muy sencilla.
 
 - [![App](https://img.shields.io/badge/App-informational?style=for-the-badge&logo=netlify&logoColor=fff&color=23272d)](https://...)
 
-- No tiene incorporada ninguna base de datos
+- No tiene incorporada ninguna base de datos, pero utiliza localStorage para persistencia de los datos
 
 ## *Desarrollado con:*
 
